@@ -1,0 +1,20 @@
+./.idea
+./.mvn
+
+# IntelliJ IDEA
+/.idea/
+/*.iml
+
+# Maven
+/target/
+/.mvn/wrapper/maven-wrapper.jar
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Spring Boot
+*.class
