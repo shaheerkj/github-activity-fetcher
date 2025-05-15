@@ -8,6 +8,7 @@
 # Maven
 /target/
 /.mvn/wrapper/maven-wrapper.jar
+/.mvn/wrapper/maven-wrapper.properties
 
 # Logs
 *.log
@@ -18,3 +19,5 @@ Thumbs.db
 
 # Spring Boot
 *.class
+
+dependency-reduced-pom.xml

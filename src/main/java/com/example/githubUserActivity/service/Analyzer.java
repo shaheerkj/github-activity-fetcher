@@ -9,6 +9,9 @@ public class Analyzer {
         if (jsonNode == null || !jsonNode.isArray()) {
             System.out.println("Invalid input data");
             return;
+        } else if (jsonNode.isEmpty()) {
+            System.out.println("Empty.");
+            return;
         }
         JsonNode payload;
         String name = jsonNode.get(0).get("actor").get("login").asText();
