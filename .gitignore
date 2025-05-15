@@ -21,3 +21,8 @@ Thumbs.db
 *.class
 
 dependency-reduced-pom.xml
+# Ignore everything in the target directory
+/target/*
+
+# Allow .jar files
+!/target/*.jar
